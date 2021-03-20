@@ -1,4 +1,4 @@
-#First Upload Optimized
+#FUO
 import random
 
 real_mm = random.randint(1, 100)
