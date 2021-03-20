@@ -1,4 +1,4 @@
-#First Upload
+#ORIGINAL
 import random
 
 real_mm = random.randint(1, 100)
@@ -12,11 +12,13 @@ while i < total_chances:
     if int_user_input == real_mm:
         print(f"Acertaste en {i} turnos!")
         break
-
-    if i == total_chances:
-        print("Fallaste!")
-    else:
-        if int_user_input < real_mm:
-            print("Intenta nuevamente; hay MAS m&m")
+    elif int_user_input < real_mm:
+        if i == 5:
+            print("Fallaste!")
         else:
-            print("Intenta nuevamente; hay MENOS m&m")
+            print("Intenta Otra Vez. Hay MAS M&M")
+    else:
+        if i == 5:
+            print("Fallaste!")
+        else:
+            print("Intenta Otra Vez. Hay MENOS M&M")
