@@ -1,4 +1,4 @@
-#FUO
+#SUO
 import random
 
 real_mm = random.randint(1, 100)
