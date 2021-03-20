@@ -17,6 +17,6 @@ while i < total_chances:
         print("Fallaste!")
     else:
         if int_user_input < real_mm:
-            print("Intenta nuevamente; hay MAS m&m")
+            print("Intenta nuevamente; hay MAS m&m's")
         else:
-            print("Intenta nuevamente; hay MENOS m&m")
+            print("Intenta nuevamente; hay MENOS m&m's")
